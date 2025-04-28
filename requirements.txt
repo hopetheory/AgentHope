@@ -1,0 +1,13 @@
+# Core dependencies
+python-dotenv>=0.19.0
+pyyaml>=6.0
+
+# Vision capabilities
+pyautogui>=0.9.53
+pillow>=9.0.0
+opencv-python>=4.5.5
+pytesseract>=0.3.8
+
+# Control capabilities
+pynput>=1.7.6
+pyperclip>=1.8.2

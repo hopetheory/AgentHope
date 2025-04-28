@@ -1,0 +1,25 @@
+# AgentHope Configuration
+
+# Vision module configuration
+vision:
+  screenshot_interval: 0.5  # Minimum time between screenshots (seconds)
+  ocr_enabled: true  # Enable text recognition
+
+# Control module configuration
+control:
+  safety_delay: 0.1  # Delay between actions (seconds)
+  max_actions_per_minute: 300  # Rate limiting
+
+# Learning module configuration
+learning:
+  enabled: true  # Enable learning
+  save_interval: 300  # Save interval (seconds)
+
+# Memory module configuration
+memory:
+  persistence_enabled: true  # Enable persistent storage
+
+# Logging configuration
+logging:
+  level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file_enabled: true
